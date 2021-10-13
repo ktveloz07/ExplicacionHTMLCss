@@ -1,0 +1,72 @@
+p {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+
+a {
+    background-color: green;
+}
+
+#parrafo3{
+    color:rgb(167, 71, 100);
+}
+
+.textoGris{
+    color:gray;
+}
+
+.textoAzul{
+    color: blue;
+}
+
+.fondoRojo{
+    background-color: red;
+}
+
+.fondoAmarillo{
+    background-color: yellow;
+}
+
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch:narrower;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenPequeña {
+    margin: 20px; 
+}
+
+.contenedorConMargen{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+.contenedorDivsGrid {
+    border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 50px 50px;
+    grid-template-columns: 30% 30% 40%;
+    margin: 20px;
+}
+
+.divtest{
+    border: 1px solid red;
+}
+
+.contenedorDivsFlex{
+    border: 2px solid green;
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
