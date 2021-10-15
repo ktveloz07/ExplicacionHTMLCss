@@ -11,3 +11,23 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
+.logo {
+    height: 23px;
+}
+
+.mainButton {
+    background-color: #1bb76e;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px green;
+}
+
+.mainButton:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px;
+    transform: scale(1.1);
+}
