@@ -11,7 +11,6 @@ ul {
 .navbar {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     padding:10px;
 }
 
@@ -20,22 +19,11 @@ ul {
 }
   
 .button {    
-=======
-}
-
-
-
-.button {
->>>>>>> 8-crear-cuadro-busqueda
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-<<<<<<< HEAD
 }   
-=======
-}
->>>>>>> 8-crear-cuadro-busqueda
 .button:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -47,13 +35,8 @@ ul {
 }
 
 .mainButton:hover {
-<<<<<<< HEAD
     box-shadow: 1px 1px green;
 }
-
-
-
-
 
 .secondaryButton {
     background-color: #66d8f5;
@@ -64,34 +47,18 @@ ul {
     box-shadow:1px 1px rgb(119, 229, 233);
 }
 
-
-box-shadow: 3px 3px;
-=======
-    box-shadow: 1px 1px green;;
-}
-
-.secondaryButton {
-    background-color: #66d8f5;
-    color: white;
-    
-}
-
-.secondaryButton:hover {
-    box-shadow: 1px 1px rgb(119, 229, 233);
-}
-
 .buscar {
     background-color: white;
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
 }
+
 .buscar:focus-within {
-    border:1px solid blue;
+    border: 1px solid blue;
 }
 
-.buscar > input{
+.buscar > input {
     outline: none;
     border: 0px;
 }
->>>>>>> 8-crear-cuadro-busqueda
